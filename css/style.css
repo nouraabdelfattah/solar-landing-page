@@ -1,0 +1,567 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:serif;
+}
+.header{
+    background-color: rgb(0, 114, 114);
+    padding: 0.7%;
+    color: white;
+    position: relative;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+
+}
+.nav2{
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5% 10%;
+    align-items: center;
+}
+.header-list{
+list-style: none;
+display: flex;
+
+}
+.header-list li{
+margin-right: 50px;
+padding: 4px 20px;
+
+}
+.header-list li a{
+    color: white;
+    text-decoration: none;
+}
+.home{
+    box-shadow: 0 1px 1px 1px black;
+    border-radius: 3px;
+    border: 0;
+}
+
+.popup{
+    position: absolute;
+    right: 10%;
+    top: 105%;
+    z-index: 10;
+    background-color: rgba(0, 22, 22, 0.775) ;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    display: none;
+
+}
+.header-list2{
+    list-style: none;
+}
+.header-list2 li{
+    margin: 5px 0;
+}
+hr{
+    height: 1px;
+    opacity: 0.5;
+    margin-bottom: 5px;
+}
+.header-list2 a{
+    color: white;
+    text-decoration: none;
+    
+}
+.x{
+    display: block;
+ position: absolute;
+ right: 10%;
+ top: 5%;
+ font-size: 1.5rem;
+
+}
+/* /////////////////////////////////////////////////////////////// */
+.main{
+    position: relative;
+    
+}
+.main-img{
+    background-image: url(../images/solar-panels-meadow\ 1.png);
+    background-position: center;
+    background-size: cover;
+    height:92vh;
+}
+.main-content{
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    color: rgb(255, 255, 255);
+}
+.main-content p{
+    font-size: 1rem;
+    margin: 20px 0;
+}
+.main-content button{
+    padding: 5px 30px;
+    margin-right: 10px;
+    border-radius: 20px;
+    border: 0;
+    background-color: rgb(0, 114, 114) ;
+    color: rgb(234, 229, 229);
+}
+.main-content .btn-r{
+    background-color: rgb(231, 162, 14);
+    color: black;
+}
+.main-content button:hover{
+opacity: 0.7;
+cursor: pointer;
+}
+/* /////////////////////////////////////////////////////////////////// */
+.section1{
+    display: flex;
+    flex-direction: row;
+    margin: 5% 0;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.section1 .section1-content{
+    margin-left: 7%;
+}
+.section1 .section1-content p{
+    margin-top: 5%;
+}
+.section1 .section1-content span{
+    color: rgb(1, 163, 163) ;
+}
+.section1-sub-p{
+    font-weight: bold;
+}
+.section1 .section1-right{
+    width: 25%;
+    margin-right: 12%;
+    position: relative;
+}
+.section1 .section1-right .section1-img{
+    background-image:url(../images/Rectangle.png);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+
+    
+}
+.section1 .section1-right  .overlay{
+    position: absolute;
+    top: 50%;
+    left: -20%;
+    background-color: rgb(231, 162, 14);
+    width: 50%;
+    height: 30%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.section1 .section1-right  .overlay img{
+  width: 30%;
+ margin-left: 20px;
+}
+.section1 .section1-right  .overlay p{
+    font-size: 0.7rem;
+    margin: 20px 20px;
+}
+/* //////////////////////////////////////////////////// */
+.section2-img{
+    background-image: url(../images//8116\ 1.png);
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+}
+/* //////////////////////////////////////////////////// */
+.section3{
+    margin: 5% 0;
+    padding: 1rem;
+}
+.section3 h2{
+    text-align: center;
+}
+.section3 .sub-title{
+    text-align: center;
+    margin: 3% 0;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    margin: auto;
+    margin-top: 3%;
+    
+    
+}
+.card{
+    
+    margin-right: 2rem;
+   
+    
+}
+.card:hover{
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+.card img{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+.card-content{
+    padding: 10px;
+    
+}
+.card-content p{
+margin: 10px 0;
+}
+.card a{
+    color: rgb(1, 163, 163);
+    text-decoration: none;
+}
+/* //////////////////////////////////////////////////// */
+.section4{
+position: relative;
+}
+.section4-img{
+    background-image: url(../images//8116\ 1\ \(1\).png);
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+}
+.section4-overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.559);
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+.section4-overlay p{
+    margin: 1rem 0;
+}
+/* ///////////////////////////////////////////////////// */
+.section5{
+    display: flex;
+    width: 80%;
+    margin: 5% 10%;
+}
+.section5 .section5-left span{
+    background-color: rgb(0, 114, 114);
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0px 0px 1px 6px rgb(196, 239, 239);
+}
+.section5 .section5-left h2{
+    margin: 20px 0;
+}
+.section5 .section5-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 3rem;
+    grid-template-rows: repeat(2,auto);
+    grid-row-gap:20px ;
+    
+}
+.grid-content{
+    border: 1px solid rgb(0, 114, 114) ;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.grid-words h3{
+    margin: 1rem 0 0 0;
+}
+.grid-words p{
+    margin: 1rem 0;
+}
+/* ///////////////////////////////////////////////////// */
+
+.section6-iqon{
+    margin: 20px;
+    font-size: 2rem;
+    color: rgb(0, 114, 114) ;
+}
+.section7{
+    display: flex;
+    width: 80%;
+    margin: 5% 8%;
+}
+.section7-left span{
+    font-size: 2rem;
+    color:rgb(0, 114, 114) ;
+}
+.section7-left h2{
+margin: 5% 0;
+}
+.section7-right{
+    margin-left: 150px;
+    background-color: rgba(148, 221, 221, 0.185);
+    padding: 20px;
+    border-radius: 10px;
+}
+.section7-right-title{
+    display: flex;
+    justify-content: space-between;
+}
+h6{
+    font-size: 1.3rem;
+    color: rgb(0, 114, 114) ;
+
+}
+.dot{
+    font-size: 0.5rem;
+}
+.dot2{
+    opacity: 0.3;
+    font-size: 0.5rem;
+}
+.person-photo{
+    display: flex;
+}
+.person{
+    display: flex;
+    justify-content: space-between;
+}
+.person-iqon{
+    margin-top: auto;
+}
+.person-iqon i{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 10px;}
+
+
+.footer{
+    background-color: rgb(22, 26, 26);
+    padding: 5% 8%;
+    color: white;
+}
+.footer-top{
+    display: flex;
+    
+    justify-content: space-between;
+
+}
+.footer-l ul{
+    display: flex;
+    list-style: none;
+}
+.footer-l ul li{
+    margin: 10px 20px 0 0;
+    color: white;
+}
+
+.footer-r{
+    margin-top: 20px;
+    width: 40%;
+}
+.footer-r input{
+padding: 10px 20px;
+border-radius: 50px;
+border: 1px solid rgb(124, 122, 122);
+margin-top: 10px;
+outline: 0;
+background-color: rgb(51, 48, 48);
+color: white;
+width: 60%;
+
+}
+.footer-r button{
+    background-color: rgb(231, 162, 14);
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-left: -80px;
+    border: 0;
+     color: white;
+}
+.footer-l{
+    margin-top: 20px;
+}
+.footer-l span{
+    
+    padding: 2px 10px ;
+    border-right: 1px solid gray;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+p{
+    opacity: 0.85;
+}
+
+
+
+
+@media (max-width:768px) {
+    .nav{
+        display: none;
+    }
+    .nav2{
+        display: flex;
+    }
+    .main-img{
+        
+        background-repeat: no-repeat;
+        
+    }
+    .main-content{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 80%;
+        text-align: center;
+
+    }
+    .main-content button{
+        padding: 3px 10px;
+       margin-top: 10px;
+        width: 60%;
+    }
+    /* //////////////////////////////////////////// */
+    .section1{
+        flex-direction: column;
+        
+    }
+    .section1 .section1-right{
+        width: 90%;
+      margin: auto;
+       margin-top: 5%
+        ;
+        
+        
+    }
+    .section1 .section1-right .section1-img{
+        margin: auto;
+        text-align: center;
+    }
+    .section1 .section1-right  .overlay{
+        
+        top: 90%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        
+       
+        
+    }
+    .section1 .section1-content p{
+       font-size: 0.7rem;
+    }
+    .section1 .section1-content{
+        margin:0 3%;
+    }
+    /* ///////////////////////////////////////////// */
+    .section2-img{
+        background-image: url(../images/8116\ 1\ -\ Copy.png);
+        height: 350px;
+        background-position: center;
+        background-size: cover;
+    }
+    /* ///////////////////////////////////////////// */
+    .cards{
+        
+        flex-direction: column;
+    }
+    .card{
+        width: 80%;
+        margin: auto;
+      margin-top: 1rem;
+    }
+    .section2-img{
+      margin-top: 7%;
+    }
+    .section4-img{
+        background-image: url(../images/8116\ 1\ \(1\)\ -\ Copy.png);
+        background-size: cover;
+        width: 100%;
+        height: 350px;
+        margin-bottom: 50px;
+    }
+    .section4-overlay{
+        width: 80%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+       
+    }
+    .section4-overlay p{
+       font-size: 0.8rem;
+    }
+    .section4-overlay h2{
+        font-size: 1.3rem;
+     }
+     /* //////////////////////////////////// */
+     .section5{
+        flex-direction: column;
+     }
+     .section5 .section5-right {
+     
+        grid-template-columns: 1fr;
+        margin-left: 3rem;
+        grid-template-rows: repeat(4,auto);
+        grid-row-gap:20px ;
+        
+    }
+    .section7{
+        flex-direction: column;
+    }
+    .section7-right{
+        width: 100%;
+    font-size: 0.7rem;
+        margin: 5% auto;
+    }
+    .person{
+     flex-direction: column;
+    }
+    .person-iqon {
+margin: 5% auto;
+    }
+    .footer{
+        font-size: 0.8rem;
+    }
+    .footer-top{
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+    .footer-l{
+        width: 100%;
+        text-align: center;
+        margin: 8% 0;
+    }
+    .footer-r{
+        margin: 8% 0;
+        width: 100%;
+    }
+    .footer-r input{
+        margin: 10px auto;
+        width: 100%;
+        
+        
+        }
+        .footer-r button{
+            text-align: center;
+            margin: auto;
+           
+        }
+        .footer-r p{
+            text-align: center;
+        }
+        .footer-bottom{
+            flex-direction: column;
+        }
+        p{
+            font-size: 0.9rem;
+        }
+}
